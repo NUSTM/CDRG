@@ -1,0 +1,380 @@
+12/23/2021 13:51:45 - INFO - pytorch_transformers.modeling_utils -   loading configuration file ./bert_lm_models/bert-e/config.json
+12/23/2021 13:51:45 - INFO - pytorch_transformers.modeling_utils -   Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "finetuning_task": null,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "num_labels": 7,
+  "output_attentions": false,
+  "output_hidden_states": false,
+  "pruned_heads": {},
+  "torchscript": false,
+  "type_vocab_size": 2,
+  "vocab_size": 30522
+}
+
+12/23/2021 13:51:45 - INFO - pytorch_transformers.modeling_utils -   loading weights file ./bert_lm_models/bert-e/pytorch_model.bin
+12/23/2021 13:51:48 - INFO - pytorch_transformers.modeling_utils -   Weights of BertForTokenClassification not initialized from pretrained model: ['classifier.weight', 'classifier.bias']
+12/23/2021 13:51:48 - INFO - pytorch_transformers.modeling_utils -   Weights from pretrained model not used in BertForTokenClassification: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+12/23/2021 13:51:48 - INFO - pytorch_pretrained_bert.tokenization -   loading vocabulary file ./bert_lm_models/bert-e/vocab.txt
+12/23/2021 13:51:48 - INFO - __main__ -   ***** Running training *****
+12/23/2021 13:51:48 - INFO - __main__ -     Num examples = 1492
+12/23/2021 13:51:48 - INFO - __main__ -     Batch size = 16
+12/23/2021 13:51:48 - INFO - __main__ -     Num steps = 282
+12/23/2021 13:53:32 - INFO - pytorch_pretrained_bert.tokenization -   loading vocabulary file ./bert_lm_models/bert-e/vocab.txt
+12/23/2021 13:53:32 - INFO - __main__ -   ***** Running evaluation *****
+12/23/2021 13:53:32 - INFO - __main__ -     Num examples = 2158
+12/23/2021 13:53:32 - INFO - __main__ -     Batch size = 8
+12/23/2021 13:53:41 - INFO - __main__ -   Input data dir: ./pseudo_output/ds-bert-e/#service-rest
+12/23/2021 13:53:41 - INFO - __main__ -   Output dir: ./run_out/ds-bert-e/service-rest
+12/23/2021 13:53:41 - INFO - __main__ -   属性抽取: 0.5787447032008289 recall: 0.6569055656946867 f1: 0.6153481279911431
+12/23/2021 13:53:41 - INFO - __main__ -   联合任务： precision: 0.5055833634748426 recall: 0.5738636338554911 f1: 0.537558989191985
+12/23/2021 13:53:46 - INFO - pytorch_transformers.modeling_utils -   loading configuration file ./bert_lm_models/bert-e/config.json
+12/23/2021 13:53:46 - INFO - pytorch_transformers.modeling_utils -   Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "finetuning_task": null,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "num_labels": 7,
+  "output_attentions": false,
+  "output_hidden_states": false,
+  "pruned_heads": {},
+  "torchscript": false,
+  "type_vocab_size": 2,
+  "vocab_size": 30522
+}
+
+12/23/2021 13:53:46 - INFO - pytorch_transformers.modeling_utils -   loading weights file ./bert_lm_models/bert-e/pytorch_model.bin
+12/23/2021 13:53:49 - INFO - pytorch_transformers.modeling_utils -   Weights of BertForTokenClassification not initialized from pretrained model: ['classifier.weight', 'classifier.bias']
+12/23/2021 13:53:49 - INFO - pytorch_transformers.modeling_utils -   Weights from pretrained model not used in BertForTokenClassification: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+12/23/2021 13:53:49 - INFO - pytorch_pretrained_bert.tokenization -   loading vocabulary file ./bert_lm_models/bert-e/vocab.txt
+12/23/2021 13:53:49 - INFO - __main__ -   ***** Running training *****
+12/23/2021 13:53:49 - INFO - __main__ -     Num examples = 3045
+12/23/2021 13:53:49 - INFO - __main__ -     Batch size = 16
+12/23/2021 13:53:49 - INFO - __main__ -     Num steps = 573
+12/23/2021 13:57:28 - INFO - pytorch_pretrained_bert.tokenization -   loading vocabulary file ./bert_lm_models/bert-e/vocab.txt
+12/23/2021 13:57:28 - INFO - __main__ -   ***** Running evaluation *****
+12/23/2021 13:57:28 - INFO - __main__ -     Num examples = 2158
+12/23/2021 13:57:28 - INFO - __main__ -     Batch size = 8
+12/23/2021 13:57:41 - INFO - __main__ -   Input data dir: ./pseudo_output/ds-bert-e/#laptop-rest
+12/23/2021 13:57:41 - INFO - __main__ -   Output dir: ./run_out/ds-bert-e/laptop-rest
+12/23/2021 13:57:41 - INFO - __main__ -   属性抽取: 0.6060713003668503 recall: 0.7504370301382416 f1: 0.6705671961395054
+12/23/2021 13:57:41 - INFO - __main__ -   联合任务： precision: 0.5167666766086598 recall: 0.6398601370635483 f1: 0.571758381915726
+12/23/2021 13:57:45 - INFO - pytorch_transformers.modeling_utils -   loading configuration file ./bert_lm_models/bert-e/config.json
+12/23/2021 13:57:45 - INFO - pytorch_transformers.modeling_utils -   Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "finetuning_task": null,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "num_labels": 7,
+  "output_attentions": false,
+  "output_hidden_states": false,
+  "pruned_heads": {},
+  "torchscript": false,
+  "type_vocab_size": 2,
+  "vocab_size": 30522
+}
+
+12/23/2021 13:57:45 - INFO - pytorch_transformers.modeling_utils -   loading weights file ./bert_lm_models/bert-e/pytorch_model.bin
+12/23/2021 13:57:48 - INFO - pytorch_transformers.modeling_utils -   Weights of BertForTokenClassification not initialized from pretrained model: ['classifier.weight', 'classifier.bias']
+12/23/2021 13:57:48 - INFO - pytorch_transformers.modeling_utils -   Weights from pretrained model not used in BertForTokenClassification: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+12/23/2021 13:57:48 - INFO - pytorch_pretrained_bert.tokenization -   loading vocabulary file ./bert_lm_models/bert-e/vocab.txt
+12/23/2021 13:57:49 - INFO - __main__ -   ***** Running training *****
+12/23/2021 13:57:49 - INFO - __main__ -     Num examples = 2557
+12/23/2021 13:57:49 - INFO - __main__ -     Batch size = 16
+12/23/2021 13:57:49 - INFO - __main__ -     Num steps = 480
+12/23/2021 14:01:16 - INFO - pytorch_pretrained_bert.tokenization -   loading vocabulary file ./bert_lm_models/bert-e/vocab.txt
+12/23/2021 14:01:16 - INFO - __main__ -   ***** Running evaluation *****
+12/23/2021 14:01:16 - INFO - __main__ -     Num examples = 2158
+12/23/2021 14:01:16 - INFO - __main__ -     Batch size = 8
+12/23/2021 14:01:28 - INFO - __main__ -   Input data dir: ./pseudo_output/ds-bert-e/#device-rest
+12/23/2021 14:01:28 - INFO - __main__ -   Output dir: ./run_out/ds-bert-e/device-rest
+12/23/2021 14:01:28 - INFO - __main__ -   属性抽取: 0.6726535302859008 recall: 0.5074300477521831 f1: 0.5784704185257993
+12/23/2021 14:01:28 - INFO - __main__ -   联合任务： precision: 0.6077636117742549 recall: 0.45847901897517906 f1: 0.5226657481711819
+12/23/2021 14:01:32 - INFO - pytorch_transformers.modeling_utils -   loading configuration file ./bert_lm_models/bert-e/config.json
+12/23/2021 14:01:32 - INFO - pytorch_transformers.modeling_utils -   Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "finetuning_task": null,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "num_labels": 7,
+  "output_attentions": false,
+  "output_hidden_states": false,
+  "pruned_heads": {},
+  "torchscript": false,
+  "type_vocab_size": 2,
+  "vocab_size": 30522
+}
+
+12/23/2021 14:01:32 - INFO - pytorch_transformers.modeling_utils -   loading weights file ./bert_lm_models/bert-e/pytorch_model.bin
+12/23/2021 14:01:35 - INFO - pytorch_transformers.modeling_utils -   Weights of BertForTokenClassification not initialized from pretrained model: ['classifier.weight', 'classifier.bias']
+12/23/2021 14:01:35 - INFO - pytorch_transformers.modeling_utils -   Weights from pretrained model not used in BertForTokenClassification: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+12/23/2021 14:01:35 - INFO - pytorch_pretrained_bert.tokenization -   loading vocabulary file ./bert_lm_models/bert-e/vocab.txt
+12/23/2021 14:01:36 - INFO - __main__ -   ***** Running training *****
+12/23/2021 14:01:36 - INFO - __main__ -     Num examples = 3877
+12/23/2021 14:01:36 - INFO - __main__ -     Batch size = 16
+12/23/2021 14:01:36 - INFO - __main__ -     Num steps = 729
+12/23/2021 14:06:45 - INFO - pytorch_pretrained_bert.tokenization -   loading vocabulary file ./bert_lm_models/bert-e/vocab.txt
+12/23/2021 14:06:45 - INFO - __main__ -   ***** Running evaluation *****
+12/23/2021 14:06:46 - INFO - __main__ -     Num examples = 747
+12/23/2021 14:06:46 - INFO - __main__ -     Batch size = 8
+12/23/2021 14:07:01 - INFO - __main__ -   Input data dir: ./pseudo_output/ds-bert-e/#rest-service
+12/23/2021 14:07:01 - INFO - __main__ -   Output dir: ./run_out/ds-bert-e/rest-service
+12/23/2021 14:07:01 - INFO - __main__ -   属性抽取: 0.445297500524976 recall: 0.5231115532005014 f1: 0.48107328380169195
+12/23/2021 14:07:02 - INFO - __main__ -   联合任务： precision: 0.3771593054015422 recall: 0.44306651135212505 f1: 0.4074600358946222
+12/23/2021 14:07:06 - INFO - pytorch_transformers.modeling_utils -   loading configuration file ./bert_lm_models/bert-e/config.json
+12/23/2021 14:07:06 - INFO - pytorch_transformers.modeling_utils -   Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "finetuning_task": null,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "num_labels": 7,
+  "output_attentions": false,
+  "output_hidden_states": false,
+  "pruned_heads": {},
+  "torchscript": false,
+  "type_vocab_size": 2,
+  "vocab_size": 30522
+}
+
+12/23/2021 14:07:06 - INFO - pytorch_transformers.modeling_utils -   loading weights file ./bert_lm_models/bert-e/pytorch_model.bin
+12/23/2021 14:07:09 - INFO - pytorch_transformers.modeling_utils -   Weights of BertForTokenClassification not initialized from pretrained model: ['classifier.weight', 'classifier.bias']
+12/23/2021 14:07:09 - INFO - pytorch_transformers.modeling_utils -   Weights from pretrained model not used in BertForTokenClassification: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+12/23/2021 14:07:09 - INFO - pytorch_pretrained_bert.tokenization -   loading vocabulary file ./bert_lm_models/bert-e/vocab.txt
+12/23/2021 14:07:09 - INFO - __main__ -   ***** Running training *****
+12/23/2021 14:07:09 - INFO - __main__ -     Num examples = 3045
+12/23/2021 14:07:09 - INFO - __main__ -     Batch size = 16
+12/23/2021 14:07:09 - INFO - __main__ -     Num steps = 573
+12/23/2021 14:10:30 - INFO - pytorch_pretrained_bert.tokenization -   loading vocabulary file ./bert_lm_models/bert-e/vocab.txt
+12/23/2021 14:10:30 - INFO - __main__ -   ***** Running evaluation *****
+12/23/2021 14:10:30 - INFO - __main__ -     Num examples = 747
+12/23/2021 14:10:30 - INFO - __main__ -     Batch size = 8
+12/23/2021 14:10:37 - INFO - __main__ -   Input data dir: ./pseudo_output/ds-bert-e/#laptop-service
+12/23/2021 14:10:37 - INFO - __main__ -   Output dir: ./run_out/ds-bert-e/laptop-service
+12/23/2021 14:10:37 - INFO - __main__ -   属性抽取: 0.5226019788026243 recall: 0.5343855090884432 f1: 0.5284230619133683
+12/23/2021 14:10:37 - INFO - __main__ -   联合任务： precision: 0.4079382534957194 recall: 0.41713641017884545 f1: 0.4124810607434831
+12/23/2021 14:10:41 - INFO - pytorch_transformers.modeling_utils -   loading configuration file ./bert_lm_models/bert-e/config.json
+12/23/2021 14:10:41 - INFO - pytorch_transformers.modeling_utils -   Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "finetuning_task": null,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "num_labels": 7,
+  "output_attentions": false,
+  "output_hidden_states": false,
+  "pruned_heads": {},
+  "torchscript": false,
+  "type_vocab_size": 2,
+  "vocab_size": 30522
+}
+
+12/23/2021 14:10:41 - INFO - pytorch_transformers.modeling_utils -   loading weights file ./bert_lm_models/bert-e/pytorch_model.bin
+12/23/2021 14:10:44 - INFO - pytorch_transformers.modeling_utils -   Weights of BertForTokenClassification not initialized from pretrained model: ['classifier.weight', 'classifier.bias']
+12/23/2021 14:10:44 - INFO - pytorch_transformers.modeling_utils -   Weights from pretrained model not used in BertForTokenClassification: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+12/23/2021 14:10:44 - INFO - pytorch_pretrained_bert.tokenization -   loading vocabulary file ./bert_lm_models/bert-e/vocab.txt
+12/23/2021 14:10:44 - INFO - __main__ -   ***** Running training *****
+12/23/2021 14:10:44 - INFO - __main__ -     Num examples = 2557
+12/23/2021 14:10:44 - INFO - __main__ -     Batch size = 16
+12/23/2021 14:10:44 - INFO - __main__ -     Num steps = 480
+12/23/2021 14:13:31 - INFO - pytorch_pretrained_bert.tokenization -   loading vocabulary file ./bert_lm_models/bert-e/vocab.txt
+12/23/2021 14:13:31 - INFO - __main__ -   ***** Running evaluation *****
+12/23/2021 14:13:31 - INFO - __main__ -     Num examples = 747
+12/23/2021 14:13:31 - INFO - __main__ -     Batch size = 8
+12/23/2021 14:13:42 - INFO - __main__ -   Input data dir: ./pseudo_output/ds-bert-e/#device-service
+12/23/2021 14:13:42 - INFO - __main__ -   Output dir: ./run_out/ds-bert-e/device-service
+12/23/2021 14:13:42 - INFO - __main__ -   属性抽取: 0.5819672011891968 recall: 0.32018034721754823 f1: 0.41308629712195544
+12/23/2021 14:13:42 - INFO - __main__ -   联合任务： precision: 0.5286885137563829 recall: 0.29086809142200576 f1: 0.3752681428975114
+12/23/2021 14:13:47 - INFO - pytorch_transformers.modeling_utils -   loading configuration file ./bert_lm_models/bert-e/config.json
+12/23/2021 14:13:47 - INFO - pytorch_transformers.modeling_utils -   Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "finetuning_task": null,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "num_labels": 7,
+  "output_attentions": false,
+  "output_hidden_states": false,
+  "pruned_heads": {},
+  "torchscript": false,
+  "type_vocab_size": 2,
+  "vocab_size": 30522
+}
+
+12/23/2021 14:13:47 - INFO - pytorch_transformers.modeling_utils -   loading weights file ./bert_lm_models/bert-e/pytorch_model.bin
+12/23/2021 14:13:50 - INFO - pytorch_transformers.modeling_utils -   Weights of BertForTokenClassification not initialized from pretrained model: ['classifier.weight', 'classifier.bias']
+12/23/2021 14:13:50 - INFO - pytorch_transformers.modeling_utils -   Weights from pretrained model not used in BertForTokenClassification: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+12/23/2021 14:13:50 - INFO - pytorch_pretrained_bert.tokenization -   loading vocabulary file ./bert_lm_models/bert-e/vocab.txt
+12/23/2021 14:13:50 - INFO - __main__ -   ***** Running training *****
+12/23/2021 14:13:50 - INFO - __main__ -     Num examples = 3877
+12/23/2021 14:13:50 - INFO - __main__ -     Batch size = 16
+12/23/2021 14:13:50 - INFO - __main__ -     Num steps = 729
+12/23/2021 14:17:47 - INFO - pytorch_pretrained_bert.tokenization -   loading vocabulary file ./bert_lm_models/bert-e/vocab.txt
+12/23/2021 14:17:48 - INFO - __main__ -   ***** Running evaluation *****
+12/23/2021 14:17:48 - INFO - __main__ -     Num examples = 800
+12/23/2021 14:17:48 - INFO - __main__ -     Batch size = 8
+12/23/2021 14:17:55 - INFO - __main__ -   Input data dir: ./pseudo_output/ds-bert-e/#rest-laptop
+12/23/2021 14:17:55 - INFO - __main__ -   Output dir: ./run_out/ds-bert-e/rest-laptop
+12/23/2021 14:17:55 - INFO - __main__ -   属性抽取: 0.4465408748862783 recall: 0.5599368201992397 f1: 0.4968459699878687
+12/23/2021 14:17:55 - INFO - __main__ -   联合任务： precision: 0.3597484231478186 recall: 0.45110409383116573 f1: 0.4002749739521959
+12/23/2021 14:17:59 - INFO - pytorch_transformers.modeling_utils -   loading configuration file ./bert_lm_models/bert-e/config.json
+12/23/2021 14:17:59 - INFO - pytorch_transformers.modeling_utils -   Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "finetuning_task": null,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "num_labels": 7,
+  "output_attentions": false,
+  "output_hidden_states": false,
+  "pruned_heads": {},
+  "torchscript": false,
+  "type_vocab_size": 2,
+  "vocab_size": 30522
+}
+
+12/23/2021 14:17:59 - INFO - pytorch_transformers.modeling_utils -   loading weights file ./bert_lm_models/bert-e/pytorch_model.bin
+12/23/2021 14:18:02 - INFO - pytorch_transformers.modeling_utils -   Weights of BertForTokenClassification not initialized from pretrained model: ['classifier.weight', 'classifier.bias']
+12/23/2021 14:18:02 - INFO - pytorch_transformers.modeling_utils -   Weights from pretrained model not used in BertForTokenClassification: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+12/23/2021 14:18:02 - INFO - pytorch_pretrained_bert.tokenization -   loading vocabulary file ./bert_lm_models/bert-e/vocab.txt
+12/23/2021 14:18:03 - INFO - __main__ -   ***** Running training *****
+12/23/2021 14:18:03 - INFO - __main__ -     Num examples = 1492
+12/23/2021 14:18:03 - INFO - __main__ -     Batch size = 16
+12/23/2021 14:18:03 - INFO - __main__ -     Num steps = 282
+12/23/2021 14:20:05 - INFO - pytorch_pretrained_bert.tokenization -   loading vocabulary file ./bert_lm_models/bert-e/vocab.txt
+12/23/2021 14:20:05 - INFO - __main__ -   ***** Running evaluation *****
+12/23/2021 14:20:05 - INFO - __main__ -     Num examples = 800
+12/23/2021 14:20:05 - INFO - __main__ -     Batch size = 8
+12/23/2021 14:20:16 - INFO - __main__ -   Input data dir: ./pseudo_output/ds-bert-e/#service-laptop
+12/23/2021 14:20:16 - INFO - __main__ -   Output dir: ./run_out/ds-bert-e/service-laptop
+12/23/2021 14:20:16 - INFO - __main__ -   属性抽取: 0.369512190615705 recall: 0.4779179056911821 f1: 0.41677634333333924
+12/23/2021 14:20:16 - INFO - __main__ -   联合任务： precision: 0.29999999634146346 recall: 0.3880126121764572 f1: 0.338371968572736
+12/23/2021 14:20:23 - INFO - pytorch_transformers.modeling_utils -   loading configuration file ./bert_lm_models/bert-e/config.json
+12/23/2021 14:20:23 - INFO - pytorch_transformers.modeling_utils -   Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "finetuning_task": null,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "num_labels": 7,
+  "output_attentions": false,
+  "output_hidden_states": false,
+  "pruned_heads": {},
+  "torchscript": false,
+  "type_vocab_size": 2,
+  "vocab_size": 30522
+}
+
+12/23/2021 14:20:26 - INFO - pytorch_transformers.modeling_utils -   loading weights file ./bert_lm_models/bert-e/pytorch_model.bin
+12/23/2021 14:20:30 - INFO - pytorch_transformers.modeling_utils -   Weights of BertForTokenClassification not initialized from pretrained model: ['classifier.weight', 'classifier.bias']
+12/23/2021 14:20:30 - INFO - pytorch_transformers.modeling_utils -   Weights from pretrained model not used in BertForTokenClassification: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+12/23/2021 14:20:30 - INFO - pytorch_pretrained_bert.tokenization -   loading vocabulary file ./bert_lm_models/bert-e/vocab.txt
+12/23/2021 14:20:30 - INFO - __main__ -   ***** Running training *****
+12/23/2021 14:20:30 - INFO - __main__ -     Num examples = 3877
+12/23/2021 14:20:30 - INFO - __main__ -     Batch size = 16
+12/23/2021 14:20:30 - INFO - __main__ -     Num steps = 729
+12/23/2021 14:24:59 - INFO - pytorch_pretrained_bert.tokenization -   loading vocabulary file ./bert_lm_models/bert-e/vocab.txt
+12/23/2021 14:24:59 - INFO - __main__ -   ***** Running evaluation *****
+12/23/2021 14:24:59 - INFO - __main__ -     Num examples = 1279
+12/23/2021 14:24:59 - INFO - __main__ -     Batch size = 8
+12/23/2021 14:25:08 - INFO - __main__ -   Input data dir: ./pseudo_output/ds-bert-e/#rest-device
+12/23/2021 14:25:08 - INFO - __main__ -   Output dir: ./run_out/ds-bert-e/rest-device
+12/23/2021 14:25:08 - INFO - __main__ -   属性抽取: 0.24061032722646522 recall: 0.5882352097223515 f1: 0.3415202287685591
+12/23/2021 14:25:08 - INFO - __main__ -   联合任务： precision: 0.21889671233041835 recall: 0.5351506379461889 f1: 0.310699750370382
+12/23/2021 14:25:13 - INFO - pytorch_transformers.modeling_utils -   loading configuration file ./bert_lm_models/bert-e/config.json
+12/23/2021 14:25:13 - INFO - pytorch_transformers.modeling_utils -   Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "finetuning_task": null,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "num_labels": 7,
+  "output_attentions": false,
+  "output_hidden_states": false,
+  "pruned_heads": {},
+  "torchscript": false,
+  "type_vocab_size": 2,
+  "vocab_size": 30522
+}
+
+12/23/2021 14:25:13 - INFO - pytorch_transformers.modeling_utils -   loading weights file ./bert_lm_models/bert-e/pytorch_model.bin
+12/23/2021 14:25:16 - INFO - pytorch_transformers.modeling_utils -   Weights of BertForTokenClassification not initialized from pretrained model: ['classifier.weight', 'classifier.bias']
+12/23/2021 14:25:16 - INFO - pytorch_transformers.modeling_utils -   Weights from pretrained model not used in BertForTokenClassification: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+12/23/2021 14:25:16 - INFO - pytorch_pretrained_bert.tokenization -   loading vocabulary file ./bert_lm_models/bert-e/vocab.txt
+12/23/2021 14:25:16 - INFO - __main__ -   ***** Running training *****
+12/23/2021 14:25:16 - INFO - __main__ -     Num examples = 1492
+12/23/2021 14:25:16 - INFO - __main__ -     Batch size = 16
+12/23/2021 14:25:16 - INFO - __main__ -     Num steps = 282
+12/23/2021 14:27:08 - INFO - pytorch_pretrained_bert.tokenization -   loading vocabulary file ./bert_lm_models/bert-e/vocab.txt
+12/23/2021 14:27:09 - INFO - __main__ -   ***** Running evaluation *****
+12/23/2021 14:27:09 - INFO - __main__ -     Num examples = 1279
+12/23/2021 14:27:09 - INFO - __main__ -     Batch size = 8
+12/23/2021 14:27:18 - INFO - __main__ -   Input data dir: ./pseudo_output/ds-bert-e/#service-device
+12/23/2021 14:27:18 - INFO - __main__ -   Output dir: ./run_out/ds-bert-e/service-device
+12/23/2021 14:27:18 - INFO - __main__ -   属性抽取: 0.29254901731334104 recall: 0.5351505688449686 f1: 0.37829155454610724
+12/23/2021 14:27:18 - INFO - __main__ -   联合任务： precision: 0.2658823508558247 recall: 0.4863701508411743 f1: 0.3438088135458882
