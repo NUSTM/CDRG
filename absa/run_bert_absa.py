@@ -39,8 +39,6 @@ from tqdm import tqdm
 
 logging.basicConfig(format='%(asctime)s - %(levelname)s - %(name)s -   %(message)s',
                     datefmt='%m/%d/%Y %H:%M:%S',
-                    filename='bert-e-merge.log',
-                    filemode='a',
                     level=logging.INFO)
 logger = logging.getLogger(__name__)
 
