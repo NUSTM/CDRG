@@ -1,4 +1,20 @@
-**目录：**
+# Cross-Domain Review Generation for Aspect-Based Sentiment Analysis
+
+This repository contains code for our ACL 2021 paper: 
+
+Cross-Domain Review Generation for Aspect-Based Sentiment Analysis
+
+
+## Datasets
+
+The training data comes from four domains: Restaurant(R) 、 Laptop(L) 、 Service(S) 、 Devices(D).  
+For each domain transfer pairs, the unlabeled data come from a combination of training data from the two domains(ratio: 1:1).
+
+The in-domain corpus(used for training BERT-E) come from [yelp](https://www.yelp.com/dataset/challenge) and [amazon reviews](http://jmcauley.ucsd.edu/data/amazon/links.html). 
+
+Click here to get [BERT-E](https://pan.baidu.com/s/1hNyNCyfOHzznuPbxT1LNFQ) (BERT-Extented) , and the extraction code is by0i. (Please specify the directory where BERT is stored in modelconfig.py.)
+
+**Folder：**
 
 - aspect_output: aspects and opinions extracted by double propagation.
 - ds-bert：training language models for target domains and using them for generating pseudo samples.
@@ -6,6 +22,7 @@
 - ABSA: using pseudo samples for absa task.
 - raw_data: traning data and testing data for four domains.
 
+**Usage：**
 
 ## **1. Using double propagation to extract aspects and opinions from target unlabeled data**
 
