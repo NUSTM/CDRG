@@ -52,7 +52,7 @@ bert-e-based:
 bash ./ds-bert/generate_bert_e.sh
 ```
 
-### 3.Using pseudo samples for ABSA**
+### 3.Using pseudo samples for ABSA
 
 * To get the results for ABSA by using pseudo samples, run below code ：
 
